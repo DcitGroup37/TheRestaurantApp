@@ -4,29 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/whitesmoke"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="206dp"
-        android:layout_height="145dp"
-        android:layout_marginTop="360dp"
-        android:layout_marginEnd="104dp"
-        android:importantForAccessibility="no"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo"
-        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:layout_width="447dp"
-        android:layout_height="320dp"
+        android:layout_height="326dp"
+        android:adjustViewBounds="false"
         android:background="@drawable/roundedbutton3"
         android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="ImageContrastCheck"
-        tools:layout_editor_absoluteX="-19dp" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="-18dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -38,7 +31,8 @@
         android:textStyle="bold"
         android:visibility="visible"
         tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="286dp" />
+        tools:layout_editor_absoluteY="286dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
@@ -50,7 +44,8 @@
         android:textStyle="bold"
         android:visibility="visible"
         tools:layout_editor_absoluteX="247dp"
-        tools:layout_editor_absoluteY="286dp" />
+        tools:layout_editor_absoluteY="286dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
@@ -71,6 +66,28 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="197dp"
+        android:layout_height="155dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="47dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="343dp"
+        android:layout_height="169dp"
+        android:text="Choose from a large variety of menus that would make your mouth water and your taste buds melt"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="449dp"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
