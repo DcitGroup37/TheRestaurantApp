@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/whitesmoke"
+    android:background="@color/white_smoke"
     tools:context=".MainActivity">
 
 
@@ -22,7 +22,7 @@
         tools:layout_editor_absoluteX="-18dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/orderTextView"
         android:layout_width="137dp"
         android:layout_height="38dp"
         android:text="Order"
@@ -34,8 +34,11 @@
         tools:layout_editor_absoluteY="286dp"
         tools:ignore="MissingConstraints" />
 
+
+
+
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/surpriseMeTextView"
         android:layout_width="148dp"
         android:layout_height="34dp"
         android:text="Surprise Me"
@@ -51,7 +54,7 @@
         android:id="@+id/button"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="40dp"
         android:background="@drawable/roundedbutton2"
         android:paddingLeft="40dp"
         android:paddingTop="20dp"
@@ -82,6 +85,7 @@
         android:layout_height="169dp"
         android:text="Choose from a large variety of menus that would make your mouth water and your taste buds melt"
         android:textAlignment="center"
+        android:lineHeight="30dp"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="normal"
