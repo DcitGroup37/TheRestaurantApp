@@ -14,7 +14,7 @@
         android:layout_marginTop="396dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ToyFace2"
+        app:srcCompat="@drawable/toyface2"
         tools:ignore="ImageContrastCheck"
         android:importantForAccessibility="no" />
 
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="600dp"
         android:layout_marginEnd="5dp"
-        android:src="@drawable/toyFace1"
+        android:src="@drawable/toyface1"
         app:layout_constraintEnd_toStartOf="@+id/button"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,6 +68,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
+
+
 
     <ImageView
         android:id="@+id/imageView4"
