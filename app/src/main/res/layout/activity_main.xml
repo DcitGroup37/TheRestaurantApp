@@ -7,28 +7,19 @@
     android:background="@color/orange"
     tools:context=".MainActivity">
 
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
-        android:layout_height="400dp"
-        android:layout_marginTop="396dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ToyFace2"
-        tools:ignore="ImageContrastCheck"
-        android:importantForAccessibility="no" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
         android:layout_height="600dp"
-        android:layout_marginEnd="5dp"
-        android:src="@drawable/toyFace1"
-        app:layout_constraintEnd_toStartOf="@+id/button"
+        android:layout_marginTop="232dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="224dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/toyfacecomb"
+        tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/textView"
@@ -44,7 +35,6 @@
         android:textSize="50sp"
         android:textStyle="bold"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
         tools:ignore="MissingConstraints" />
@@ -85,6 +75,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo"
         tools:ignore="ImageContrastCheck" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
