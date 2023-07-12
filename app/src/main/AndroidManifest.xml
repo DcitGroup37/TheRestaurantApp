@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.app.menu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project1301">
+        <activity
+            android:name="com.example.menu.Activity.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.menu.Activity.SecondActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.menu.Activity.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.menu.Activity.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name="com.example.menu.Activity.LandingActivity"
+            android:exported="true">
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        </activity>
+
+
+
+    </application>
+
+</manifest>
